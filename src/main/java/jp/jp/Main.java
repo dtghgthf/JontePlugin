@@ -18,6 +18,9 @@ public final class Main extends JavaPlugin {
     public static HashMap<String, Location> warpHash = new HashMap<String, Location>();
     public static HashMap<Player, PermissionAttachment> perms = new HashMap<Player, PermissionAttachment>();
 
+
+    private int BBPlayerAmount = 2;
+
     public static Main MainClass;
 
     @Override
@@ -55,4 +58,12 @@ public final class Main extends JavaPlugin {
         System.out.println(ChatColor.GREEN + "[JP]: Plugin Stopped!");
         System.out.println(ChatColor.GREEN + "[JP]:" + ChatColor.GRAY + " Bye Bye!");
     }
+    public int getBBPlayerAmount() {
+        return BBPlayerAmount;
+    }
+
+    public void setBBPlayerAmount(int BBPlayerAmount) {
+        this.BBPlayerAmount = BBPlayerAmount;
+    }
+
 }

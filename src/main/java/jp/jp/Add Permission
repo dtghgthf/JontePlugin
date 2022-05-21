@@ -1,0 +1,5 @@
+PermissionAttachment att = player.addAttachment(Main.MainClass);
+
+att.setPermission("Permission", true/false);
+
+Main.perms.put(player, att);

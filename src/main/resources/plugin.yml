@@ -1,0 +1,22 @@
+name: JP
+version: '${project.version}'
+main: jp.jp.Main
+api-version: 1.18
+authors: [ dtghgthf ]
+description: The Plugin for Jonte's Server
+
+commands:
+  tpa:
+    description: "Dieser Command schickt einem Spieler eine Teleportationsanfrage"
+  tpaccept:
+    description: "Dieser Command akzeptiert eine Teleportationsanfrage (/tpa)"
+  warp:
+    description: "Dieser Command erstellt einen Warp, zu dem du dich teleportieren kannst"
+  warps:
+    description: "Gibt dir eine Liste der Warps aus"
+  invsee:
+    description: "Zeigt dir das Inventar eines anderen Spielers an"
+  status:
+    description: "Erstellt dir einen Status"
+  challenges:
+    description: "Öffnet das Challenges-Menü"
